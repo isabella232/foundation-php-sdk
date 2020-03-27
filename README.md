@@ -35,7 +35,7 @@ In a Data Process, a JSON object is passed to your script that includes the **so
 
 In a Custom Field the JSON object contains **field** name of the Custom Field, the **row** id of the current record, and **data** for the rest of the row. You can save changes made to values in the data array by adding a commit = 1 flag at the top level of the JSON object.
 ```JSON
-{"source":"1858","db":[],"dbo":{"_quote":"`","_now":"NOW()","_where":"WHERE","_uuid":"UUID()","_t_dbo":null,"_bp_dbo":null,"cache":[]},"field":"r","row":"45","data":{"sys_id":"1","sys_cdate":"2020-03-27 10:35:51","sys_udate":"2020-03-27 10:35:55","sys_user_id":"1","Field1":"Value","Field2":"Value2","Field3":"Value3","FieldN":"ValueN"}}
+{"source":"1234567890123","field":"r","row":"45","data":{"sys_id":"1","sys_cdate":"2020-03-27 10:35:51","sys_udate":"2020-03-27 10:35:55","sys_user_id":"1","Field1":"Value","Field2":"Value2","Field3":"Value3","FieldN":"ValueN"}}
 ```
 
 To easily use these values, json decode the passed argument.
