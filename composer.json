@@ -1,0 +1,8 @@
+{
+  "name": "tmmdata/foundation-php-sdk",
+  "autoload": {
+    "psr-0": {
+      "TMMData": "src"
+    }
+  }
+}
