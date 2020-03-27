@@ -1,0 +1,14 @@
+{
+  "name": "tmmdata/foundation-php-sdk",
+  "description": "The TMMData Foundation SDK enables you to work with the TMMData Foundation V3 API.",
+  "homepage": "https://www.tmmdata.com",
+  "license": "MIT",
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-0": {
+      "TMMData": "src"
+    }
+  }
+}
