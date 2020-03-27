@@ -8,7 +8,8 @@ The TMMData Foundation SDK enables you to work with the TMMData Foundation V3 AP
 
 ## Installation ##
 
-First you must generate an API Key from within Foundation.
+### Generate API Key
+
 1. Click your User Name in the top right corner
 1. Select **Account Settings**
 1. Click **Generate Token**
@@ -17,10 +18,28 @@ First you must generate an API Key from within Foundation.
 1. Enter an expiration date for the Token.
 1. Click **Save Token**
 
-Download the TMMData Foundation SDK [Here](https://github.com/tmmdata/), and include the package.
+### Composer
+
+The easiest way to make sure you stay up to date is to install via [composer](https://getcomposer.org/). Follow the [installation instructions](https://getcomposer.org/doc/00-intro.md) if you don't have composer installed.
+
+Once composer is installed, execute the following command in your project to install the SDK:
+
+```sh
+composer require tmmdata/foundation-php-sdk
+```
+
+Include the autoloader:
 
 ```php
-require_once '/path/to/your-project/TMMData/Foundation.class.php';
+require_once '/your/project/vendor/autoload.php';
+```
+
+### Manual Download
+
+Alternatively you can download the TMMData Foundation SDK directly [here](https://github.com/tmmdata/foundation-php-sdk), and include the package.
+
+```php
+require_once '/your/project/src/TMMData/Foundation.php';
 ```
 
 
