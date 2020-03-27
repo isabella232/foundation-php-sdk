@@ -2,7 +2,7 @@
 /**
  * @author Wesley Boyd <wes.boyd@tmmdata.com>
  * @package TMMData Foundation SDK
- * @version 1.2.2
+ * @version 1.2.3
  *
  * Package to interface with TMMData's V3 API
  */
