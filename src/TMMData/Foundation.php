@@ -223,7 +223,7 @@ class Foundation {
 	}
 
 	/**
-	 * Retrives Resoruce definitions from API stores for later use.
+	 * Retrieves Resource definitions from API stores for later use.
 	 *
 	 * @return bool
 	 */
